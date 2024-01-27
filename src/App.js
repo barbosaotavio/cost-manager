@@ -5,7 +5,7 @@ import Frase from './components/Frase'
 import List from './components/List'
 
 function App() {
-  const nome = 'maria'
+  const nome = 'otavio'
   return (
   <div className= 'App'>
     <h1>Testando Eventos</h1>
