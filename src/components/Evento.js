@@ -1,6 +1,7 @@
 function Evento ( {numero} ) {
 function meuEvento() {
     console.log (`opa, fui ativado! ${numero}`)
+    
 }
 
     return(
