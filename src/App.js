@@ -12,27 +12,27 @@ function App() {
           <Link to= '/'>Home</Link>
         </li>
         <li>
-          <Link to= '/empresa'>Emepresa</Link>
+          <Link to= '/Empresa'>Empresa</Link>
         </li>
         <li>
-          <Link to= '/contato'>Contato</Link>
+          <Link to= '/Contato'>Contato</Link>
         </li>
       </ul>
-        <Routes>
-          <Route path='/' element={<Home/>}/>
-            
-          
+      <Routes>
+        
+        <Route path= '/'element={<Home/>}/>
+        
+        
 
-          {/* <Route path='/empresa'>
-            <Empresa/>
-          </Route>
+        <Route path='Empresa'element={<Empresa/>}/>
+      
+        
 
-          <Route path='/contato'>
-            <Contato/>
-          </Route> */}
-
+        <Route path='Contato'element={<Contato/>}/>
         </Routes>
-    </Router>
+  
+  </Router>
+
   )
 }
 
