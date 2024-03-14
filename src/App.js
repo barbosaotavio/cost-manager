@@ -20,6 +20,7 @@ function App() {
         
 
         <Route path='Contato'element={<Contato/>}/>
+        
         </Routes>
         <Footer/>
   </Router>
